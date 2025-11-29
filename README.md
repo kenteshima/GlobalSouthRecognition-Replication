@@ -39,8 +39,8 @@ GlobalSouthRecognition-Replication/
 │   │   └── .gitkeep
 │   └── figures/                   # 図出力 / Figures
 │       └── .gitkeep
-└── docs/                          # 文書 / Documentation
-    └── (codebooks will be placed here)
+└── docs/                          # 調査票 / Survey
+
 ```
 
 ## 必要環境 / Requirements

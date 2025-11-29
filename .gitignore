@@ -1,0 +1,48 @@
+# Stata temporary files
+*.dta~
+*.smcl
+*.log
+
+# Stata output files (these will be generated)
+data/created/*.dta
+output/tables/*.xlsx
+output/tables/*.txt
+output/figures/*.png
+master_log.txt
+
+# Keep .gitkeep files
+!.gitkeep
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# R files (if any)
+.Rhistory
+.RData
+.Rproj.user
+
+# Python files (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Backup files
+*.bak
+
+# Development documentation (not for repository)
+SETUP_GUIDE.md

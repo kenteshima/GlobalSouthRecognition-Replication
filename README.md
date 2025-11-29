@@ -92,7 +92,15 @@ do "${code}/master_globalsouthsurvey.do"
 - その後、`master_globalsouthsurvey.do`を実行すると全ての分析が実行されます
 - Then, running `master_globalsouthsurvey.do` will execute the complete analysis
 
-### 4. 出力の確認 / Check Output
+### 4. 個別 do ファイル一覧
+
+- read_survey.do - データ読み込み・統合（mexico.csv + brasil.csv）
+- clean_data.do - クリーニング（734件+722件）
+- create_variables.do - 変数作成
+- summary_statistics_pcavariable.do - 記述統計（反転変数使用）：表1と図2
+- principal_component.do - 主成分分析＋主成分を説明変数とした回帰分析（メイン分析手法）：表2と表3
+
+### 5. 出力の確認 / Check Output
 
 分析が完了すると、以下のファイルが生成されます：
 

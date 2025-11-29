@@ -126,7 +126,7 @@ Latin American Report, Vol. 43, No. 2.
 
 ## ライセンス / License
 
-[ライセンス情報を記入 / Insert license information]
+https://github.com/kenteshima/GlobalSouthRecognition-Replication/blob/main/LICENSE
 
 ## 連絡先 / Contact
 

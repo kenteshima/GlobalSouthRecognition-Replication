@@ -100,40 +100,15 @@ After completion, the following files will be generated:
 
 **表 / Tables** (`output/tables/`):
 - `comparison_table_revised.xlsx` - 表1：記述統計（国別比較）/ Table 1: Descriptive statistics (country comparison)
-- `table_pca_mexico.txt` - 表2：メキシコ主成分分析結果 / Table 2: Mexico PCA results
-- `table_pca_brazil.txt` - 表3：ブラジル主成分分析結果 / Table 3: Brazil PCA results
+- `table_pca_mexico.txt` - 表2 パネルB：メキシコ主成分を説明変数とした回帰分析結果 / Table 2 Panel B: Mexico regression results using PCA as independent variables
+- `table_pca_brazil.txt` - 表3 パネルB：ブラジル主成分を説明変数とした回帰分析結果 / Table 3 Panel B: Brazil regression results using PCA as independent variables
 
 **図 / Figures** (`output/figures/`):
 - `globalsouth_responses_combined.png` - 図2：グローバルサウス認知度・役割評価 / Figure 2: Global South recognition and role assessment
 
-## データ / Data
+**ログファイル / log file**
+-`master_log.txt`-表2 パネル A 表3 パネル Aはログファイルにある主成分分析結果から直接作成 / Table 2 Panel A and Table 3 Panel A are created directly from the results of PCAs stored in the log file
 
-### メキシコ調査 / Mexico Survey
-- サンプルサイズ / Sample size: 734名 / 734 respondents
-- 調査期間 / Survey period: [調査期間を記入 / Insert survey period]
-
-### ブラジル調査 / Brazil Survey
-- サンプルサイズ / Sample size: 722名 / 722 respondents
-- 調査期間 / Survey period: [調査期間を記入 / Insert survey period]
-
-## 分析手法 / Analytical Methods
-
-本研究では、以下の分析手法を使用しています：
-
-This study employs the following analytical methods:
-
-1. **記述統計 / Descriptive Statistics**
-   - 国別比較 / Country-wise comparison
-   - 反転変数を使用 / Using reversed variables
-
-2. **主成分分析 (PCA) / Principal Component Analysis**
-   - 態度変数の次元削減 / Dimensionality reduction of attitude variables
-   - 主成分スコアを用いた回帰分析 / Regression analysis using PC scores
-
-3. **回帰分析 / Regression Analysis**
-   - プロビットモデル / Probit models
-   - 順序プロビットモデル / Ordered probit models
-   - 限界効果の計算 / Marginal effects calculation
 
 ## 引用 / Citation
 

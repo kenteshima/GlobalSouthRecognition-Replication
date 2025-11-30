@@ -136,18 +136,5 @@ Latin American Report, Vol. 43, No. 2.
 
 https://github.com/kenteshima/GlobalSouthRecognition-Replication/blob/main/LICENSE
 
-## 連絡先 / Contact
-
-質問やフィードバックがある場合は、以下にお問い合わせください：
-
-For questions or feedback, please contact:
-
-- [連絡先情報を記入 / Insert contact information]
-
-## 謝辞 / Acknowledgments
-
-[謝辞を記入 / Insert acknowledgments]
-
----
 
 最終更新 / Last updated: 2025年11月 / November 2025
